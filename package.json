@@ -1,0 +1,17 @@
+{
+  "name": "nexa-bot",
+  "version": "1.0.0",
+  "description": "Discord bot da Nexa Store",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
